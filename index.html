@@ -10,8 +10,29 @@
   <title>Portafolio</title>
 </head>
 <body>
-  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-    Portafolio Introducción a la Programación 2022
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://twitter.com/recetasdejavi" style="font: 35px;"></a>Javiera Quiroz Olguín</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://javiquirozo.github.io/Portafolio-Javi/">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://recetasdejavi.cl/">Mi blog de recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="https://recetasdejavi.cl/who-is-cooking/" tabindex="-1" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
 <section id="proyects">
@@ -22,9 +43,10 @@
       <img src="assets/img/desafio-curriculum.png" class="card-img-top" alt="...">
       <hr>
       <div class="card-body">
-        <h5 class="card-title">Curriculum</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Ir a repositorio</a>
+        <h5 class="card-title">Curriculum con HTML</h5>
+        <p class="card-text">Este desafío se realizó con el objetivo de poner a prueba los conocimientos básicos de la estructura de HTML creando un curriculum.
+</p>
+        <a href="https://github.com/Javiquirozo/desafio1" class="btn btn-primary">Ir a repositorio</a>
       </div>
     </div>
 
@@ -32,9 +54,9 @@
       <img src="assets/img/posicionamiento.png" class="card-img-top" alt="...">
       <hr>
       <div class="card-body">
-        <h5 class="card-title">Posicionamiento</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">ir a repositorio∫</a>
+        <h5 class="card-title">Landing Page</h5>
+        <p class="card-text">Con los primeros conocimientos de CSS creamos esta landing page para practicar el uso de posicionamiento.</p>
+        <a href="https://github.com/Javiquirozo/desafio2" class="btn btn-primary">ir a repositorio</a>
       </div>
     </div>    
 
@@ -43,8 +65,8 @@
       <hr>
       <div class="card-body">
         <h5 class="card-title">Iguana Page</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Ir a repositorio</a>
+        <p class="card-text">Esta página web, con más dificultad que en la anterior, es un proyecto realizado para entender mejor el modelo de caja y el posicionamiento usando CSS.</p>
+        <a href="https://github.com/Javiquirozo/desafio3" class="btn btn-primary">Ir a repositorio</a>
       </div>
     </div>
 
@@ -55,8 +77,8 @@
       <hr>
       <div class="card-body">
         <h5 class="card-title">Bootstrap</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Ir a repositorio</a>
+        <p class="card-text">Conocimos Bootstrapp, una herramienta muy útil al momento de crear páginas web. Este cuarto desafío fue para crear un proyecto donde se utilizaran componentes de Bootstrap</p>
+        <a href="https://github.com/Javiquirozo/desafio4" class="btn btn-primary">Ir a repositorio</a>
       </div>
     </div>    
     <div class="card" style="width: 18rem;">
@@ -64,20 +86,25 @@
       <hr>
       <div class="card-body">
         <h5 class="card-title">GitHub</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Ir a repositorio</a>
+        <p class="card-text">Aprendimos cómo crear un repositorio remoto en GitHub accediendo y usando a la terminal.</p>
+        <a href="https://github.com/Javiquirozo/fdsw-github" class="btn btn-primary">Ir a repositorio</a>
       </div>
     </div>
   </div>
 
 </section>
 
-<div class="alert alert-success" role="alert">
-  <h4 class="alert-heading">Well done!</h4>
-  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-  <hr>
-  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+<section class="contacto">
+<h3>Contáctame</h3>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Tu correo electrónico</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</section>
 
 </body>
 </html>

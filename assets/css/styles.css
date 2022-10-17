@@ -1,3 +1,33 @@
-.nav {
-    font-size: 100px;
+.proyects {
+    box-sizing: border-box;
+    display: block;
+}
+
+.container{
+    padding: 5%;
+}
+
+.btn-primary{
+    background-color: mediumaquamarine;
+}
+.container-fluid{
+    background-color: mediumaquamarine;
+    margin-top: 2%;
+    padding-block: 3%;
+    padding-inline: 5%;
+    font-size: 30px;
+}
+
+
+.row{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+.contacto{
+    text-align-last: center;
+    padding-inline: 8%;
+    font-size: 20px;
 }
